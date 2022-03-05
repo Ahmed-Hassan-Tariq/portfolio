@@ -11,6 +11,7 @@
 
 .progress:hover {
 	  box-shadow: 0 2px 2px -3px #f76a52, 0 0px 3px #f76a52;
+	  transition: 0.2s ease;
 }
 .progress_bar h2 {
     color: #ffffff;
