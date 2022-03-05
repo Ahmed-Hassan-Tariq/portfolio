@@ -6,8 +6,6 @@ import Skills from "./components/Skills/Skills";
 import Services from "./components/services/Services";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
-import { ContactUs } from "./components/Contact/ContactUs";
-
 
 function App() {
   return (
