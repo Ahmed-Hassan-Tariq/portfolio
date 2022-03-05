@@ -40,10 +40,7 @@ const Features = () => {
     <a1> Currently in Computer Science <br/>program in COMSATS, Lahore</a1>
     <div className='info_icons_sizing'>
 
-    <a3><SiInstagram color='#ffffff' size={icon_size} /></a3>
-    <a3><SiFacebook color='#ffffff' size={icon_size} /></a3>
-    <a3><SiTwitter color='#ffffff' size={icon_size} /></a3>
-    <a3><SiPinterest color='#ffffff' size={icon_size} /></a3>
+
 
     <a href="https://www.instagram.com/ahmedhassantariq/" target="_blank" ><SiInstagram  color='#ffffff' size={icon_size} /></a>
     <a href="https://www.facebook.com/ahmedhassantariq00" target="_blank"><SiFacebook color='#ffffff' size={icon_size} /></a>
