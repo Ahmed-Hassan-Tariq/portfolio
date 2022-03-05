@@ -1,0 +1,30 @@
+
+
+.progress {
+	background-color: #494949;
+	position: relative;
+	margin: 15px 0;
+	/* height: 15px; */
+	width: 400px;
+	cursor: pointer;
+}
+
+.progress:hover {
+	  box-shadow: 0 2px 2px -3px #f76a52, 0 0px 3px #f76a52;
+}
+.progress_bar h2 {
+    color: #ffffff;
+    height: 15px;
+}
+
+.progress-done {
+	background: #f76a52;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* height: 15px; */
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}

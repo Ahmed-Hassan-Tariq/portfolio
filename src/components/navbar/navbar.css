@@ -1,0 +1,20 @@
+.navhead {
+    background-color: #232323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navhead a {
+    color: #ffffff;
+    font-weight: 450;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.navhead a:hover {
+    color: #f76a52;
+}
+
+

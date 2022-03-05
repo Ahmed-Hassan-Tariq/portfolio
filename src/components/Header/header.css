@@ -1,0 +1,40 @@
+.head_content {
+    line-height: 3.5rem;
+    background-color: #232323;
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    min-height: 350px;
+}
+
+.head_content a {
+    font-size: 52px;
+    font-weight: 800;
+    color: #494949;
+    text-decoration: none;
+}
+.head_content a1 {
+    
+    font-size: 64px;
+    font-weight: 900;
+    color: #ffffff;
+    
+
+}
+.button_check Button {
+    margin-top: 1rem;
+    color: #ffffff;
+    font-weight: 350;
+    font-size: 18px;
+    background-color: #f76a52;
+    border: none;
+    border-radius: 0px;
+    box-shadow:none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button_check Button:hover {
+    background-color: #ffffff;
+    color: #232323;
+    box-shadow: none;
+}

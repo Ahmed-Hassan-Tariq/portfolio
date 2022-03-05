@@ -1,0 +1,47 @@
+.contact_content {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #f76a52;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact_content h1 {
+    color: #ffffff;
+    font-size: var(--divheadings);
+
+ }
+
+
+.container_div {
+    display: flex;
+    flex-direction: row;
+ }
+
+ .container_call, .container_email, .container_office  {
+     margin: 10px;
+     color: #ffffff;
+     padding: 30px;
+     text-align: center;
+     justify-content: center;
+     align-content: center;
+ }
+
+ .button_check_contact Button {
+    margin-top: 20px;
+    color: #f76a52;
+    font-weight: 550;
+    font-size: 18px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0px;
+    box-shadow:none;
+    cursor: pointer;
+}
+.button_check_contact Button:hover {
+    background-color: #ffffff;
+    color: #232323;
+    box-shadow: none;
+}

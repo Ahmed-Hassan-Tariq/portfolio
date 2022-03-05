@@ -1,0 +1,23 @@
+.services_content {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1f1f;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.services_content h1 {
+    color: #f76a52;
+    font-size: var(--divheadings);
+ }
+
+ .services_boxes {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 2rem;
+
+    margin-bottom: 2rem;
+ }

@@ -1,0 +1,35 @@
+.email_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.email_form Button {
+    margin-top: 20px;
+    color: #f76a52;
+    font-weight: 550;
+    font-size: 18px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0px;
+    box-shadow:none;
+    cursor: pointer;
+}
+.email_form Button:hover {
+    background-color: #ffffff;
+    color: #232323;
+    box-shadow: none;
+}
+
+.email_form label {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.email_form input, textarea {
+  resize: none;
+  outline: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
