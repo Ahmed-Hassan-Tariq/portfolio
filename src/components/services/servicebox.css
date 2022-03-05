@@ -12,6 +12,10 @@
     color: #ffffff;
     box-shadow: 0 3px 3px -5px #1b1b1b, 0 2px 5px #1b1b1b;
 }
+.box_content:hover {
+    box-shadow: 0 3px 3px -5px #f76a52, 0 0px 5px #f76a52;
+    /* cursor: pointer; */
+}
 .image img {
     height: 70px;
     width: 70px;
