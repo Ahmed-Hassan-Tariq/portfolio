@@ -2,9 +2,8 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ahmed-hassan-tariq.github.io/portfolio/",
   "dependencies": {
-    "homepage":"https://ahmed-hassan-tariq.github.io/portfolio",
-    "name":"portfolio",
     "@emailjs/browser": "^3.4.0",
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
