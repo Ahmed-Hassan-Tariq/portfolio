@@ -1,5 +1,4 @@
 import React from 'react';
-// import { SocialIcon } from 'react-social-icons';
 import Izuku from '../../assets/Izuku.jpg';
 import './features.css';
 import {SiInstagram, SiFacebook, SiTwitter, SiPinterest } from "react-icons/si";
@@ -12,6 +11,7 @@ const Features = () => {
     <div className='div_divider'>
 
     <div className='about_me_picture'>
+    
     <img src={Izuku} alt='Izuku' />
     </div>
 

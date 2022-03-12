@@ -14,4 +14,6 @@ code {
 
 :root {
   --divheadings: 38px;
+  --darkbackground: #232323;
+  --darkerbackground: #1f1f1f;
 }

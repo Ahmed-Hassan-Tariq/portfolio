@@ -1,5 +1,5 @@
 .navhead {
-    background-color: #232323;
+    background-color: var(--darkbackground);
     display: flex;
     justify-content: center;
     align-items: center;
