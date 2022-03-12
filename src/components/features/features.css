@@ -101,7 +101,8 @@
     gap: 2.5rem;
 }
 
-.info_icons_sizing a3:hover {
+
+.info_icons_sizing a:hover {
     cursor: pointer;
     opacity: 80%;
     transform: scale(1.2);
