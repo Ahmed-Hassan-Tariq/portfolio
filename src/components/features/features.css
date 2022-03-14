@@ -56,9 +56,16 @@
 
 .info {
     display: grid;
-    grid-template-columns: 300px 300px;    
+    grid-template-columns: repeat(2, 1fr);   
 }
-
+.info_icons {
+    background-color: #1f1f1f;
+    min-width: 375px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
 
 
 .features_content h2 {
@@ -82,14 +89,7 @@
     justify-content: centert;
 }
 
-.info_icons {
-    background-color: #1f1f1f;
-    min-width: 600px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 2rem;
-}
+
 
 .info_icons_sizing {
     background-color: #1f1f1f;
@@ -108,3 +108,27 @@
     transform: scale(1.2);
     transition: 0.1s ease;
 }
+
+@media screen and (max-width:1000px) {
+    .info {
+        grid-template-columns: repeat(2, 1fr);   
+    }
+    .info_icons {
+        min-width: 300px;
+
+    }
+
+    .div_divider {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:650px) {
+
+    .info {
+        grid-template-columns: repeat(1, 1fr);  
+    }
+    
+    
+}
+

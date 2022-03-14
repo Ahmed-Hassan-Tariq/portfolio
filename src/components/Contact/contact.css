@@ -29,6 +29,10 @@
      align-content: center;
  }
 
+ .container_div a {
+ color: #232323;
+}
+
  .button_check_contact Button {
     margin-top: 20px;
     color: #f76a52;
@@ -44,4 +48,18 @@
     background-color: #ffffff;
     color: #232323;
     box-shadow: none;
+}
+
+@media  screen and (max-width:750px) {
+
+    .container_div {
+        flex-direction: column;
+        margin-bottom: 2rem;
+     }
+
+     .container_call, .container_email, .container_office  {
+display: none;
+    }
+    
+    
 }

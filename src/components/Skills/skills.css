@@ -43,3 +43,20 @@
     transition: 0.2s ease;    
 
 }
+
+@media  screen and (max-width:1000px) {
+
+    .skills_progress {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+  
+    
+}
+
+@media screen and (max-width:750px) {
+      .skill_icons, h3 {
+    display: none;
+
+    }
+}

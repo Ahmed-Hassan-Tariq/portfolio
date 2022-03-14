@@ -24,4 +24,18 @@
 
     margin-bottom: 3rem;
  }
+
+ @media screen and (max-width:850px) {
+    .model_setting {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+    }
+ }
+
+ @media screen and (max-width:750px) {
+    .model_setting {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem;
+    }
+ }
  
