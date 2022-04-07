@@ -1,6 +1,8 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
+
+
 import './contact.css';
 import { Button } from '@mui/material';
 import ContactUs from './ContactUs';
@@ -22,9 +24,9 @@ export default function BasicModal() {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-
   return (
       <div>
+
     <div className='button_check_contact' onClick={handleOpen}><Button variant="contained" border="none" radius="none"  >SEND MESSAGE</Button></div>    
       <Modal
         open={open}

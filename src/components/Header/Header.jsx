@@ -12,7 +12,7 @@ function Header() {
       <a1>Web Developer.</a1>
       <div className='button_check'  ><a href='#contact'>
       <Button  variant="contained" border="none" radius="none"  ><a2 >CONTACT ME</a2></Button></a></div>
-    
+      
     </div> 
   );
 }

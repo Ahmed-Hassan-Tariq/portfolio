@@ -23,18 +23,21 @@
 
 .about_me_picture {
     background-color: #1f1f1f;
-    min-width: 300px;
-    min-width: 300px;
-    max-height: 300px;
+    /* min-width: 300px; */
+    /* max-height: 300px; */
     margin-right: 2rem;
-    box-shadow: 0 0 3px -9px #111111, 0 0 9px #111111;
 }
 
 .about_me_picture img {
     max-width: 300px;
     max-height: 300px;
-    
+    box-shadow: 0 0 3px -9px #111111, 0 0 9px #111111;
 
+
+}
+.about_me_picture img:hover {
+    transform: scale(1.1);
+    transition: 0.1s ease;
 }
 
 
@@ -120,7 +123,11 @@
 
     .div_divider {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+
+ 
 }
 
 @media screen and (max-width:650px) {
