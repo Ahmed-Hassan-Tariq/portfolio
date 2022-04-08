@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState} from 'react';
 import emailjs from '@emailjs/browser';
 import{ init } from '@emailjs/browser';
 import {Button} from '@mui/material';
@@ -14,13 +14,14 @@ export const ContactUs = () => {
   const notifywait = () => toast("Sending Email.");
   const notifyyes = () => toast("Email Sent.");
   const notifyno = () => toast("Error Occured. Try Again!");
-
+  const [btn, setbtn] = useState(true);
   const sendEmail = (e) => {
     e.preventDefault();
     notifywait();
     emailjs.sendForm('service_q6thjcy', 'template_pdjyzm8', form.current, 'fln28FJerLLlkswdw')
       .then((result) => {
           notifyyes();
+          setbtn(false);
       }, (error) => {
         notifyno();
       });
@@ -34,7 +35,14 @@ export const ContactUs = () => {
       <input placeholder='Enter email' type="email" name="user_email" />
       <label className='email_message'> Message</label>
       <textarea rows={7} placeholder='Message here' name="message" />
+
+      {btn ? (
       <Button type="submit" value="Send" variant="contained" border="none" radius="none">SEND</Button>
+      ):(
+        <Button type="submit" disabled value="Send" variant="contained" border="none" radius="none">SENT</Button>
+      )
+      }
+
       <ToastContainer
         position="top-center"
         autoClose={2000}

@@ -27,3 +27,18 @@
 
     font-size: 18px;
 }
+
+@media screen and (max-width: 650px) {
+
+    .box_content {
+        width: 150px;
+        height: 150px;
+        padding: 0rem;
+    }
+    .box_content p {
+
+        display: none;
+    }
+
+     
+ }

@@ -25,13 +25,13 @@ const Skills = () => {
           <Progressbar done="60" text={"Unity"} />
           </div>
           <div className='skill_icons'>
-          <a><SiAdobe color='#ffffff' size={icon_size} /></a>
-          <a><SiFigma color='#ffffff' size={icon_size} /></a>
-          <a><SiBlender color='#ffffff' size={icon_size} /></a>
-          <a><SiMicrosoftoffice color='#ffffff' size={icon_size} /></a>
-          <a><SiAbletonlive color='#ffffff' size={icon_size} /></a>
-          <a><SiUnrealengine color='#ffffff' size={icon_size} /></a>
-          <a><SiUnity color='#ffffff' size={icon_size} /></a>
+          <p><SiAdobe color='#ffffff' size={icon_size} /></p>
+          <p><SiFigma color='#ffffff' size={icon_size} /></p>
+          <p><SiBlender color='#ffffff' size={icon_size} /></p>
+          <p><SiMicrosoftoffice color='#ffffff' size={icon_size} /></p>
+          <p><SiAbletonlive color='#ffffff' size={icon_size} /></p>
+          <p><SiUnrealengine color='#ffffff' size={icon_size} /></p>
+          <p><SiUnity color='#ffffff' size={icon_size} /></p>
           </div>
           <h3>I Am Available For Freelance!</h3>
           </div>
