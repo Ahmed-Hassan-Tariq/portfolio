@@ -39,7 +39,7 @@ export const ContactUs = () => {
       {btn ? (
       <Button type="submit" value="Send" variant="contained" border="none" radius="none">SEND</Button>
       ):(
-        <Button type="submit" disabled value="Send" variant="contained" border="none" radius="none">SENT</Button>
+        <Button disabled variant="contained" border="none" radius="none">SENT</Button>
       )
       }
 
