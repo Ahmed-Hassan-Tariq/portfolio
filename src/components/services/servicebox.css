@@ -22,3 +22,8 @@
     height: 70px;
     width: 70px;
 }
+
+.box_content p {
+
+    font-size: 18px;
+}

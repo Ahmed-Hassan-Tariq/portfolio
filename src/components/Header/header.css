@@ -7,7 +7,8 @@
     min-height: 350px;
 }
 
-.head_content a {
+.head_content p {
+    margin-bottom: 0.5rem;
     font-size: 52px;
     font-weight: 800;
     color: #494949;
@@ -45,5 +46,12 @@
         align-items: center;
         text-align: center;
     }
+
  
-}
+ 
+} 
+  @media screen and (max-width:650px) {
+        .button_check Button {
+            font-size: 12px;
+        }
+    }

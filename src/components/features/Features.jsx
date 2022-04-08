@@ -18,7 +18,7 @@ const Features = () => {
 
 
     <div className='about_me_content'>
-    <a> I'm a Web Developer with ex
+    <p> I'm a Web Developer with ex
     perience of more than 10 years Line 8:5:  
     The href attribute is required for an anchor 
     to be keyboard accessible. Provide a valid, 
@@ -26,7 +26,7 @@ const Features = () => {
     t provide an href, but still need the element to res
     emble a link, use a button 
     and change it with appropriate styles. Learn mor
-    e</a>
+    e</p>
     <div className='info'>
      <div className='information_name'> <h2>Name</h2> <a1>Ahmed Hassan</a1> </div>
      <div className='information_phone'><h2>Phone</h2> <a1>+92 336 4042530</a1> </div>

@@ -11,7 +11,7 @@ const style = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 400,
+  width: 200,
   bgcolor: '#f76a52',
   color: '#ffffff',
   border: 'none',
@@ -29,7 +29,7 @@ export default function BasicModal({modalheading, modalpara}) {
       <div>
       <div className='portfolio_boxes' onClick={handleOpen}>
       <img src={Izuku} alt='Izuku' /> </div>
-      <Modal
+      <Modal className='modal_content'
         open={open}
         onClose={handleClose}
         aria-labelledby="modal-modal-title"

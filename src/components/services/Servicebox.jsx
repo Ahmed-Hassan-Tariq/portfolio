@@ -10,7 +10,7 @@ const Servicebox1 = ({headline, paragraph}) => {
     <BiPaint color='#f76a52' size='50px' />
  </div>
     <h3>{headline}</h3>
-    <a>{paragraph}</a>
+    <p>{paragraph}</p>
     
     
     </div>
@@ -24,7 +24,7 @@ const Servicebox2 = ({headline, paragraph}) => {
     <BiVideo color='#f76a52' size='50px' />
  </div>
     <h3>{headline}</h3>
-    <a>{paragraph}</a>
+    <p>{paragraph}</p>
     
     
     </div>
@@ -38,7 +38,7 @@ const Servicebox3 = ({headline, paragraph}) => {
     <BiMusic color='#f76a52' size='50px' />
  </div>
     <h3>{headline}</h3>
-    <a>{paragraph}</a>
+    <p>{paragraph}</p>
     
     
     </div>
@@ -52,7 +52,7 @@ const Servicebox4 = ({headline, paragraph}) => {
     <BiCoinStack color='#f76a52' size='50px' />
  </div>
     <h3>{headline}</h3>
-    <a>{paragraph}</a>
+    <p>{paragraph}</p>
     
     
     </div>
@@ -66,7 +66,7 @@ const Servicebox5 = ({headline, paragraph}) => {
     <MdComputer color='#f76a52' size='50px' />
  </div>
     <h3>{headline}</h3>
-    <a>{paragraph}</a>
+    <p>{paragraph}</p>
     
     
     </div>
@@ -80,7 +80,7 @@ const Servicebox6 = ({headline, paragraph}) => {
     <MdModelTraining color='#f76a52' size='50px' />
  </div>
     <h3>{headline}</h3>
-    <a>{paragraph}</a>
+    <p>{paragraph}</p>
     
     
     </div>

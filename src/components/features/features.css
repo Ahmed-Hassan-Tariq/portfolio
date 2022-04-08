@@ -25,7 +25,7 @@
     background-color: #1f1f1f;
     /* min-width: 300px; */
     /* max-height: 300px; */
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
 }
 
 .about_me_picture img {
@@ -35,19 +35,16 @@
 
 
 }
-.about_me_picture img:hover {
-    transform: scale(1.1);
-    transition: 0.1s ease;
-}
 
 
 .about_me_content {
     /* text-align: left; */
+    padding: 1rem;
     justify-content: left;
     max-width: 500px;
 }
 
-.features_content a {
+.features_content p {
     color: #ffffff;
     font-size: 16px;
 }
@@ -134,6 +131,11 @@
 
     .info {
         grid-template-columns: repeat(1, 1fr);  
+    }
+
+    .about_me_picture img {
+        max-width: 150px;
+        max-height: 150px;   
     }
     
     
