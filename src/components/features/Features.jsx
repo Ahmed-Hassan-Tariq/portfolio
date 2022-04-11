@@ -18,25 +18,17 @@ const Features = () => {
 
 
     <div className='about_me_content'>
-    <p> I'm a Web Developer with ex
-    perience of more than 10 years Line 8:5:  
-    The href attribute is required for an anchor 
-    to be keyboard accessible. Provide a valid, 
-    navigable address as the href value. If you canno
-    t provide an href, but still need the element to res
-    emble a link, use a button 
-    and change it with appropriate styles. Learn mor
-    e</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra tellus enim, ut pulvinar nunc luctus non. Aliquam placerat, elit lobortis euismod semper, sem sem bibendum libero, quis tincidunt risus turpis non elit. Proin nulla velit, laoreet sed malesuada sed, ultrices et turpis. Nunc feugiat lectus nisl, eu bibendum erat scelerisque in. Aenean sodales enim quis commodo cursus. Proin nec urna consequat, congue dolor in, ornare risus. Pellentesque et diam id lacus efficitur dictum vitae id lectus. Aliquam congue sem sed nunc consequat mollis. Cras rhoncus et quam ut hendrerit. Mauris aliquet viverra ultricies. Cras nisl metus, dapibus non mattis vel, ornare id diam. Nulla facilisi. Morbi eu pulvinar nunc, luctus ultricies diam. Cras viverra sapien leo, vulputate euismod felis condimentum ac. Sed sit amet ornare urna.</p>
     <div className='info'>
      <div className='information_name'> <h2>Name</h2> <a1>Ahmed Hassan</a1> </div>
-     <div className='information_phone'><h2>Phone</h2> <a1>+92 336 4042530</a1> </div>
+     <div className='information_phone'><h2>Phone</h2> <a1>+** *** *******</a1> </div>
      <div className='information_country'> <h2>Country</h2><a1>Pakistan</a1> </div>
-     <div className='information_email'><h2>Email</h2> <a1>atariq344@gmail.com</a1></div>
+     <div className='information_email'><h2>Email</h2> <a1>*****@gmail.com</a1></div>
      
     </div>
     <div className='info_icons'> <h2>Education</h2>
     
-    <a1> Currently in Computer Science <br/>program in COMSATS, Lahore</a1>
+    <a1>BSCS</a1>
     <div className='info_icons_sizing'>
     <a href="https://www.instagram.com/ahmedhassantariq/" target="_blank" rel='noreferrer' ><SiInstagram  color='#ffffff' size={icon_size} /></a>
     <a href="https://www.facebook.com/ahmedhassantariq00" target="_blank" rel='noreferrer'><SiFacebook color='#ffffff' size={icon_size} /></a>

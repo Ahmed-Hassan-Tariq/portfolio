@@ -9,8 +9,8 @@ const Contact = () => {
         <Mailmodal />
 
     <div className='container_div'>
-        <div className='container_call'><BiMobileAlt color='#ffffff' size='25px' />  <h3>   Call Us On</h3> <p1>+92 336 4042530</p1>   </div>
-        <div className='container_email'><BiMailSend color='#ffffff' size='25px' /> <h3>   Email Us At</h3> <p1>atariq344@gmail.com</p1>   </div>
+        <div className='container_call'><BiMobileAlt color='#ffffff' size='25px' />  <h3>   Call Us On</h3> <p1>+** *** *******</p1>   </div>
+        <div className='container_email'><BiMailSend color='#ffffff' size='25px' /> <h3>   Email Us At</h3> <p1>*******@gmail.com</p1>   </div>
         <div className='container_office'><BiMapAlt color='#ffffff' size='25px' /> <h3>   Visit Office</h3> <p1>Pakistan</p1></div>
       
 
