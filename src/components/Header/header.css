@@ -1,6 +1,8 @@
 .head_content {
     line-height: 3.5rem;
     background-color: var(--darkbackground);
+    /* background-image: url("./back.svg");
+    background-size: cover; */
     display: flex;
     flex-direction: column;
     padding: 150px;
